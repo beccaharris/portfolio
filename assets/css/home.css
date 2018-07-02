@@ -1,0 +1,19 @@
+body {
+  background-image: url('../images/denver-skyline-3.jpg');
+  background-size: cover;
+  background-repeat: no-repeat
+}
+.tagline-1 {
+  margin-top: 3%;
+}
+.tagline-1, .tagline-2 {
+  text-align: center;
+  color: white;
+}
+
+@media only screen and (max-width : 992px) {
+  body {
+    background-image: url('../images/skyline-2.jpg');
+    background-size: cover;
+  }
+}

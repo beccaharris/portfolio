@@ -1,0 +1,27 @@
+/* Sidenav */
+header, main, footer {
+  padding-left: 300px;
+}
+.container {
+  text-align: center
+}
+.fa-bars {
+  background-color: #3b3b3b;
+  color: #fff;
+  padding: 8px;
+  margin-left: 1%;
+  margin-top: 1%;
+}
+.fa-linkedin, .fa-github, .fa-stack-overflow, .fa-instagram {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+@media only screen and (max-width : 992px) {
+  header, main, footer {
+    padding-left: 0;
+  }
+  .fa-bars {
+    background-color: #3b3b3b;
+  }
+}
+     
