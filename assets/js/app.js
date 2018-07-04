@@ -1,7 +1,6 @@
-
-
-  $(document).ready(function(){
-    $('.sidenav').sidenav();
-    $('.tooltipped').tooltip();
-  });
+$(document).ready(function(){
+  $('.sidenav').sidenav();
+  $('.tooltipped').tooltip();
+  $('.parallax').parallax();
+});
         

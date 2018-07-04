@@ -1,7 +1,28 @@
+.parallax-container {
+  height: 500px; 
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
+}
+h1 {
+  margin-top: 10px;
+}
 li {
   display: inline-block
 }
-.fa-envelope {
+.fa-envelope{
+  padding-left: 10px;
+  padding-right: 10px;
+  color: #c71610;
+}
+.fa-linkedin {
+  color: #0077B5
+}
+.fa-stack-overflow {
+  color: #f48024
+}
+.fa-instagram {
+  color: #78379c
+}
+.fa-twitter {
   padding-left: 10px;
   padding-right: 10px;
 }
