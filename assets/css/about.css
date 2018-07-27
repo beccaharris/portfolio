@@ -11,6 +11,26 @@
   margin: 0;
   text-align: center;
 }
+.parallax-container {
+  height: 300px; 
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
+}
+.section, .white{
+  background-color: #cecece !important
+}
+.container-1 {
+  background-color: #fff;
+  border-radius: 8px;
+}
+.container-2 {
+  text-align: left;
+}
+.greeting {
+  padding-top: 60px;
+}
+.colored {
+  color: #3d1829
+}
 
 @media only screen and (max-width : 992px) {
   .about-head {
