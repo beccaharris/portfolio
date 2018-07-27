@@ -5,11 +5,14 @@ header, main, footer {
 .container {
   text-align: center
 }
+.active {
+  padding-left: 0;
+}
 .sidenav-trigger {
   position: absolute;
   z-index: 102;
   margin-left: 1%;
-  margin-top: 1%
+  margin-top: 1% !important
 }
 .fa-bars {
   background-color: #3b3b3b;
@@ -20,12 +23,20 @@ header, main, footer {
   padding-left: 10px;
   padding-right: 10px;
 }
+.top-bar {
+  position: absolute;
+  margin-top: 2%;
+  margin-left: 1%
+}
 @media only screen and (max-width : 992px) {
   header, main, footer {
     padding-left: 0;
   }
   .fa-bars {
     background-color: #3b3b3b;
+  }
+  .sidenav-trigger {
+    margin-top: -17% !important
   }
 }
      

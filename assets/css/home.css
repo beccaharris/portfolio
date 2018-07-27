@@ -1,22 +1,21 @@
 body {
-  background-image: url('../images/denver-skyline.jpeg');
+  background-image: url('../images/creek.jpg');
   background-size: cover;
   background-repeat: no-repeat
 }
 .tagline-1 {
-  margin-top: 3%;
+  margin-top: 15%;
 }
 .tagline-1, .tagline-2 {
   text-align: center;
   color: white;
 }
-
 @media only screen and (max-width : 992px) {
   body {
-    background-image: url('../images/rocky-mountains.jpg');
+    background-image: url('../images/test.jpg');
     background-size: cover;
   }
-  .tagline-1 {
-    margin-top: 20%;
+  .tagline-row {
+    margin-top: 20% !important;
   }
 }
