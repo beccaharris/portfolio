@@ -18,18 +18,21 @@
 .section, .white{
   background-color: #cecece !important
 }
-.container-1 {
-  background-color: #fff;
-  border-radius: 8px;
+.card-header {
+  padding-top: 40px;
 }
-.container-2 {
-  text-align: left;
+.skills-list li {
+  margin-bottom: 10px;
+  display: inline-block;
 }
-.greeting {
-  padding-top: 60px;
+.skill-icon {
+  height: 100px;
+  margin-right: 20px;
 }
-.colored {
-  color: #3d1829
+.skill-icon-bootstrap {
+  height: 80px;
+  margin-bottom: 10px;
+  margin-right: 20px;
 }
 
 @media only screen and (max-width : 992px) {

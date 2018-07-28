@@ -5,7 +5,7 @@
   <meta charset="utf-8" />
   <meta http-equiv="x-ua-compatible" content="ie=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Becca Harris | Home</title>
+  <title>Becca Harris | Skills</title>
   <link rel="stylesheet" href="assets/css/materialize.css" />
   <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
@@ -14,34 +14,86 @@
 </head>
 
 <body>
-    <!-- Sidenav (will go on every page) -->
+  <!-- Sidenav (will go on every page) -->
+  <div class="top-bar">
+    <a href="#" data-target="slide-out" class="sidenav-trigger">
+      <i class="fas fa-bars fa-2x" data-position="right" data-tooltip="Open Sidenav"></i> 
+    </a>
+  </div>
 
-    <div class="top-bar">
-        <a href="#" data-target="slide-out" class="sidenav-trigger">
-          <i class="fas fa-bars fa-2x" data-position="right" data-tooltip="Open Sidenav"></i> 
-        </a>
-      </div>
-    
-      <ul id="slide-out" class="sidenav">
-        <div class="container">
-            <img class="circle responsive-img bh-pic" src="assets/images/bkostyo.jpg" style="height:200px; margin-top: 30px;margin-bottom:-20px;">
-            <p class="flow-text name"><strong>Becca Kostyo</strong></p>
-            <div class="contact-icons">
-              <i class="fab fa-2x fa-linkedin"></i>
-              <i class="fab fa-2x fa-github"></i>
-              <i class="fab fa-2x fa-stack-overflow"></i>
-              <i class="fab fa-2x fa-instagram"></i>
-            </div>
+  <ul id="slide-out" class="sidenav">
+    <div class="container">
+        <img class="circle responsive-img bh-pic" src="assets/images/bkostyo.jpg" style="height:200px; margin-top: 30px;margin-bottom:-20px;">
+        <p class="flow-text name"><strong>Becca Kostyo</strong></p>
+        <div class="contact-icons">
+          <i class="fab fa-2x fa-linkedin"></i>
+          <i class="fab fa-2x fa-github"></i>
+          <i class="fab fa-2x fa-stack-overflow"></i>
+          <i class="fab fa-2x fa-instagram"></i>
         </div>
-        <hr>
-          <li><a href="index.html"><i class="fas fa-2x fa-home"></i></i> Home</a></li>
-          <li><a href="about.html"><i class="fas fa-2x fa-info-circle"></i> About</a></li>
-          <li><a href="projects.html"><i class="fas fa-2x fa-code"></i> Projects</a></li>
-          <li><a href="skills.html"><i class="fas fa-2x fa-chalkboard-teacher"></i> Skills</a></li>
-          <li><a href="contact.html"><i class="fas fa-2x fa-comments"></i> Contact</a></li>
-      </ul>
+    </div>
+    <hr>
+      <li><a href="index.html"><i class="fas fa-2x fa-home"></i></i> Home</a></li>
+      <li><a href="about.html"><i class="fas fa-2x fa-info-circle"></i> About</a></li>
+      <li><a href="projects.html"><i class="fas fa-2x fa-code"></i> Projects</a></li>
+      <li><a href="skills.html"><i class="fas fa-2x fa-chalkboard-teacher"></i> Skills</a></li>
+      <li><a href="contact.html"><i class="fas fa-2x fa-comments"></i> Contact</a></li>
+  </ul>
+  <!-- End sidenav -->
+
+  <!-- Parallax/image -->
+  <div class="parallax-container">
+    <div class="parallax">
+      <div class="center-align">
+      <h1 class="about-head">my skills</h1>
+      </div>
+      <img src="assets/images/solid-background.jpeg">
+    </div>
+  </div>
+
+  <!-- Content -->
+  <div class="section white">
+    <div class="row">
+      <div class="col m1"></div>
+      <div class="col s12 m10">
+        <div class="card">
+          <div class="card-content">
+            <span class="card-title">Markup & Templating Languages</span>
+            <hr>
+            <ul class="skills-list">
+              <li><img src="assets/images/html5.png" class="skill-icon"><br><p>HTML5</p></li>
+              <li><img src="assets/images/jsx.png" class="skill-icon"><br><p>JSX</p></li>
+              <li><img src="assets/images/handlebars.png" class="skill-icon"><br><p>Handlebars</p></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="col m1"></div>
+    </div>
+    <div class="row">
+      <div class="col m1"></div>
+      <div class="col s12 m10">
+        <div class="card">
+          <div class="card-content">
+            <span class="card-title">CSS & Frameworks</span>
+            <hr>
+            <ul class="skills-list">
+                <li><img src="assets/images/css3.png" class="skill-icon"><br><p>CSS3</p></li>
+                <li><img src="assets/images/bootstrap.svg" class="skill-icon-bootstrap"><br><p>Bootstrap 4</p></li>
+                <li><img src="assets/images/materialize.png" class="skill-icon"><br><p>Materialize</p></li>
+                <li><img src="assets/images/react-materialize.svg" class="skill-icon"><br><p>React-Materialize</p></li>
+                <li><img src="assets/images/foundation.svg" class="skill-icon"><br><p>Foundation</p></li>
+              </div>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="col m1"></div>
+    </div>
+  </div>
+
     
-      <!-- End sidenav -->
+  <!-- </div> -->
 
   <script src="assets/js/vendor/jquery.js"></script>
   <script src="assets/js/vendor/what-input.js"></script>
