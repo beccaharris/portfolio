@@ -1,1 +1,18 @@
-
+ul {
+  margin-left: 15px !important;
+}
+li {
+  list-style-type: square !important;
+  text-align: left;
+}
+img {
+  height: 250px;
+  border-bottom: 2px solid gray
+}
+.card-content {
+  height: 150px;
+  text-align:left;
+}
+.card {
+  border: 2px solid rgb(58, 15, 15)
+}

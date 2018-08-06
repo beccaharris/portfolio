@@ -14,6 +14,10 @@ header, main, footer {
   margin-left: 1%;
   margin-top: 1% !important
 }
+.sidenav {
+  background-color: #3b3b3b;
+  color: white;
+}
 .fa-bars {
   background-color: #3b3b3b;
   color: #fff;
@@ -22,6 +26,21 @@ header, main, footer {
 .fa-linkedin, .fa-github, .fa-stack-overflow, .fa-instagram {
   padding-left: 10px;
   padding-right: 10px;
+}
+.sidenav-item-home, .fa-home {
+  color: #4db6ac !important;
+}
+.sidenav-item-about, .fa-info-circle {
+  color: #42a5f5 !important;
+}
+.sidenav-item-projects, .fa-code {
+  color: #bcaaa4 !important;
+}
+.sidenav-item-skills, .fa-chalkboard-teacher {
+  color: #f7d978 !important;
+}
+.sidenav-item-contact, .fa-comments {
+  color: #e198f7 !important
 }
 .top-bar {
   position: absolute;

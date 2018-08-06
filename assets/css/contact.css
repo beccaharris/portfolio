@@ -26,3 +26,6 @@ li {
 .section, .white {
   background-color: #fff !important
 }
+.contact-sidenav-item {
+  color: white !important;
+}

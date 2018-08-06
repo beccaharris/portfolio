@@ -10,7 +10,7 @@
   <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
   <link rel="stylesheet" href="assets/css/all.css" />
-  <link rel="stylesheet" href="assets/css/skills.css" />
+  <link rel="stylesheet" href="assets/css/projects.css" />
 </head>
 
 <body>
@@ -33,11 +33,11 @@
         </div>
     </div>
     <hr>
-      <li><a href="index.html"><i class="fas fa-2x fa-home"></i></i> Home</a></li>
-      <li><a href="about.html"><i class="fas fa-2x fa-info-circle"></i> About</a></li>
-      <li><a href="projects.html"><i class="fas fa-2x fa-code"></i> Projects</a></li>
-      <li><a href="skills.html"><i class="fas fa-2x fa-chalkboard-teacher"></i> Skills</a></li>
-      <li><a href="contact.html"><i class="fas fa-2x fa-comments"></i> Contact</a></li>
+    <li><a href="index.html" class="sidenav-item-home"><i class="fas fa-2x fa-home"></i></i> Home</a></li>
+    <li><a href="about.html" class="sidenav-item-about"><i class="fas fa-2x fa-info-circle"></i> About</a></li>
+    <li><a href="projects.html" class="sidenav-item-projects"><i class="fas fa-2x fa-code"></i> Projects</a></li>
+    <li><a href="skills.html" class="sidenav-item-skills"><i class="fas fa-2x fa-chalkboard-teacher"></i> Skills</a></li>
+    <li><a href="contact.html" class="sidenav-item-contact"><i class="fas fa-2x fa-comments"></i> Contact</a></li>
   </ul>
   <!-- End sidenav -->
 
@@ -53,9 +53,157 @@
 
   <!-- Content -->
   <div class="section white">
-    <div class="row">
-     
+    <div class="container">
+      <div class="row">
 
+        <div class="col m6 s12 l4">
+          <div class="card">
+            <div class="card-image waves-effect waves-block waves-light">
+              <img class="activator" src="assets/images/home-mgmt-hero.png">
+            </div>
+            <div class="card-content">
+              <span class="card-title activator grey-text text-darken-4">Home Management Hero<i class="material-icons right">more_vert</i></span>
+              <p>An app for making every-day home management easier.</p>
+            </div>
+            <div class="card-reveal">
+              <span class="card-title grey-text text-darken-4">App Overview:<i class="material-icons right">close</i></span>
+              <ul>
+                <li>Full-stack MERN application</li>
+                <li>User authentication with Passport.js local strategy</li>
+                <li>Built with React-Materialize CSS framework</li>
+                <li>Mobile friendly</li>
+              </ul>
+              <hr>
+              <span>Check the deployed app out <a target="_blank" href="https://vast-fortress-66199.herokuapp.com/home">here.</a></span><br>
+              <span>Check the code out <a target="_blank" href="https://github.com/beccakostyo/home-management-hero">here.</a></span>
+            </div>
+          </div>
+        </div>  
+
+        <div class="col m6 s12 l4">
+          <div class="card">
+            <div class="card-image waves-effect waves-block waves-light">
+              <img class="activator" src="assets/images/gitBEER.png">
+            </div>
+            <div class="card-content">
+              <span class="card-title activator grey-text text-darken-4">gitBEER<i class="material-icons right">more_vert</i></span>
+              <p>Helping people find breweries in whatever city they choose!</p>
+            </div>
+            <div class="card-reveal">
+              <span class="card-title grey-text text-darken-4">App Overview:<i class="material-icons right">close</i></span>
+              <ul>
+                <li>Uses jQuery</li>
+                <li>Google Maps API</li>
+                <li>Beer Mapping API</li>
+                <li>Built with Foundation CSS framework</li>
+                <li>Uses Firebase for storing user comments</li>
+              </ul>
+              <hr>
+              <span>Check the deployed app out <a target="_blank" href="https://beccakostyo.github.io/brewery-locator-app/">here.</a></span><br>
+              <span>Check the code out <a target="_blank" href="https://github.com/beccakostyo/brewery-locator-app">here.</a></span>
+            </div>
+          </div>
+        </div>  
+
+        <div class="col m6 s12 l4">
+          <div class="card">
+            <div class="card-image waves-effect waves-block waves-light">
+              <img class="activator" src="assets/images/nyt-scraper.png">
+            </div>
+            <div class="card-content">
+              <span class="card-title activator grey-text text-darken-4">New York Times Scraper<i class="material-icons right">more_vert</i></span>
+              <p>A simple news scraper using the New York Times.</p>
+            </div>
+            <div class="card-reveal">
+              <span class="card-title grey-text text-darken-4">App Overview:<i class="material-icons right">close</i></span>
+              <ul>
+                <li>mongoDB allows users to save and comment on saved articles</li>
+                <li>Cheerio web-scraping tool</li>
+                <li>Handlebars.js templating engine</li>
+                <li>Built with Bootstrap CSS framework</li>
+                <li>Mobile friendly</li>
+              </ul>
+              <hr>
+              <span>Check the deployed app out <a target="_blank" href="https://bharris-mongo-scraper.herokuapp.com/">here.</a></span><br>
+              <span>Check the code out <a target="_blank" href="https://github.com/beccakostyo/mongo-hw">here.</a></span>
+            </div>
+          </div>
+        </div>  
+                  
+        <div class="col m6 s12 l4">
+          <div class="card">
+            <div class="card-image waves-effect waves-block waves-light">
+              <img class="activator" src="assets/images/giphy.png">
+            </div>
+            <div class="card-content">
+              <span class="card-title activator grey-text text-darken-4">Giphy API App<i class="material-icons right">more_vert</i></span>
+              <p>Letting users search (appropriate) GIFs of any animal they choose!</p>
+            </div>
+            <div class="card-reveal">
+              <span class="card-title grey-text text-darken-4">App Overview:<i class="material-icons right">close</i></span>
+              <ul>
+                <li>No backend - simple front-end application</li>
+                <li>Uses jQuery</li>
+                <li>App built around the Giphy API</li>
+                <li>Built with Materialize CSS framework</li>
+              </ul>
+              <hr>
+              <span>Check the deployed app out <a target="_blank" href="https://beccakostyo.github.io/GiphyAPIs/">here.</a></span><br>
+              <span>Check the code out <a target="_blank" href="https://github.com/beccakostyo/GiphyAPIs">here.</a></span>
+            </div>
+          </div>
+        </div>  
+
+        <div class="col m6 s12 l4">
+          <div class="card">
+            <div class="card-image waves-effect waves-block waves-light">
+              <img class="activator" src="assets/images/quizzical.png">
+            </div>
+            <div class="card-content">
+              <span class="card-title activator grey-text text-darken-4">Lets Get Quizzical<i class="material-icons right">more_vert</i></span>
+              <p>An ocean-themed trivia game!</p>
+            </div>
+            <div class="card-reveal">
+              <span class="card-title grey-text text-darken-4">App Overview:<i class="material-icons right">close</i></span>
+              <ul>
+                <li>No backend - simple front-end application</li>
+                <li>Uses jQuery & intervals</li>
+                <li>Uses the Giphy API</li>
+                <li>Built with Bootstrap CSS framework</li>
+              </ul>
+              <hr>
+              <span>Check the deployed app out <a target="_blank" href="https://beccakostyo.github.io/GiphyAPIs/">here.</a></span><br>
+              <span>Check the code out <a target="_blank" href="https://github.com/beccakostyo/GiphyAPIs">here.</a></span>
+            </div>
+          </div>
+        </div>  
+
+        <div class="col m6 s12 l4">
+          <div class="card">
+            <div class="card-image waves-effect waves-block waves-light">
+              <img class="activator" src="assets/images/trains.png">
+            </div>
+            <div class="card-content">
+              <span class="card-title activator grey-text text-darken-4">Train Schedule Tracker<i class="material-icons right">more_vert</i></span>
+              <p>Train tracking tool</p>
+            </div>
+            <div class="card-reveal">
+              <span class="card-title grey-text text-darken-4">App Overview:<i class="material-icons right">close</i></span>
+              <ul>
+                <li>No backend - simple front-end application</li>
+                <li>Uses jQuery & intervals</li>
+                <li>Uses Moment.js</li>
+                <li>Firebase to add trains</li>
+                <li>Built with Materialize CSS framework</li>
+              </ul>
+              <hr>
+              <span>Check the deployed app out <a target="_blank" href="https://train-schedule-tracker.herokuapp.com/">here.</a></span><br>
+              <span>Check the code out <a target="_blank" href="https://github.com/beccakostyo/train-scheduler">here.</a></span>
+            </div>
+          </div>
+        </div>  
+                  
+      </div>
     </div>
   </div>
 
